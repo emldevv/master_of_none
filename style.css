@@ -9,7 +9,7 @@
     box-sizing: border-box;
 }
 
-* { border: 1px solid red;
+* {border: 1px solid red;
 background-color: grey;}
 
 /* General styles */
@@ -46,7 +46,7 @@ background-color: grey;}
 }
 #logo img {
     width: 4rem;
-    height: 1.9rem;
+    height: 1.8rem;
 
     margin: none;
 }
@@ -72,10 +72,17 @@ li a {
     padding-left: 12.5%;
 }
 
-#portrait-frame {
-    align-items: flex-end;
+#hero #text {
+    
+    font-family: 'DM Serif Text', serif;
 }
-#portrait-frame img {
-    width: 70%;
-    padding-left: 5rem;
+
+#hero #text #main {
+    font-size: 64px;
+    font-weight: 800;
+    padding: 0;
+}
+
+#portrait {
+    height: 70%;
 }
