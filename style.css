@@ -1,0 +1,81 @@
+/* Quick paste tools
+* { border: 1px solid red}
+*/
+
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+* { border: 1px solid red;
+background-color: grey;}
+
+/* General styles */
+
+
+/* Buttons styles */
+
+
+/* General typography */
+
+
+/* Major sections */
+
+
+/* Header */
+/* header {
+    display: flex;
+} */
+
+#navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 3rem;
+
+    padding: 0 12.5%;
+}
+
+#logo {
+    display: flex;
+    align-items: center;
+    margin: none;
+    padding: none;
+}
+#logo img {
+    width: 4rem;
+    height: 1.9rem;
+
+    margin: none;
+}
+
+ul {
+    display: flex;
+    list-style-type: none;
+
+    margin: none;
+}
+
+li a {
+    text-decoration: none;
+    margin: none;
+}
+
+/* Hero Section */
+#hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80vh;
+    padding-left: 12.5%;
+}
+
+#portrait-frame {
+    align-items: flex-end;
+}
+#portrait-frame img {
+    width: 70%;
+    padding-left: 5rem;
+}
